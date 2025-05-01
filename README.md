@@ -21,6 +21,6 @@ donde:
 - $n$ es el número de observaciones.
 - $\sum d_i^2$ es la suma de los cuadrados de las diferencias de rango.
 
-Una prueba curiosa es comprobar si la media de todas las permutaciones da 0. Lo que que no está sesgado. 
+Una prueba curiosa es comprobar si la media de todas las permutaciones da 0. Lo que demuestra que no está sesgado. 
 
 En spearman.py se realiza diche prueba. 
