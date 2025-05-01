@@ -11,13 +11,16 @@ El coeficiente de correlación de Spearman varía entre -1 y 1, donde:
 - 0 indica que no hay correlación.
 
 La fórmula para calcular el coeficiente de correlación de Spearman es:
+
 $$
-\rho = 1 - \frac{6 \sum d_i^2}{n(n^2 - 1)}
+\rho = 1 - \frac{6 \displaystyle\sum d_i^2}{n(n^2 - 1)}
 $$
+
 donde:
-- \(d_i\) es la diferencia entre los rangos de las dos variables para cada observación.
+- \(d_i\) es la diferencia entre los rangos.
 - \(n\) es el número de observaciones.
-- \(\sum d_i^2\) es la suma de los cuadrados de las diferencias de rango.
+- \(\sum d_i^2\) la suma de los cuadrados de esas diferencias.
+
 
 # Ejemplo en Python
 
