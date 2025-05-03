@@ -17,6 +17,7 @@ D(R_i,n) \;=\;\frac{R_i^2 + R_i}{n}\;+\;\frac{n}{2}\;-\;R_i\;-\;\frac{1}{2}
 $$
 
 Luego
+
 $$
 \rho \;=\;1 \;-\;\frac{1}{n}\sum_{i=1}^n\frac{d_i}{D(R_i,n)}
 $$
