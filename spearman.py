@@ -1,5 +1,18 @@
 from itertools import permutations
 #from scipy.stats import spearmanr
+#from legar import legar
+
+def legar(yp, y):
+    """
+    Calculate the Legar coefficient.
+    """
+    n = len(y)
+    rank_p = sorted(range(n), key=lambda i: yp[i])
+    rank_r = sorted(range(n), key=lambda i: y[i])
+    
+    d_squared = sum(abs(rank_p[i] - rank_r[i])/((rank_r[i]**2+rank_r[i])/n+n/2-rank_r[i]-1/2) for i in range(n))
+    
+    return 1 - d_squared / n 
 
 def spearmanr(x, y):
     """
@@ -26,7 +39,8 @@ for size in range(3,9):
     max_y = None
     
     for y in perms:
-        coef, _ = spearmanr(x, y)
+        #coef, _ = spearmanr(x, y)
+        coef = legar(x, y)
         coeficientes.append(coef)
         
         if coef < min_coef:
@@ -39,8 +53,8 @@ for size in range(3,9):
 
     # Promedio de los coeficientes
     promedio = sum(coeficientes) / len(coeficientes)
-    print(f"\nPromedio de Spearman para {size} : {promedio:.3f}")
+    print(f"\nPromedio de Legar para {size} : {promedio:.3f}")
     print(f"Mínimo: {min_coef:.3f} para y = {min_y}")
     print(f"Máximo: {max_coef:.3f} para y = {max_y}")
 
-    
+
