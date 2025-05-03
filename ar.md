@@ -13,13 +13,13 @@ donde:
 
 El denominador es la distancia promedio dado $R_i$ y $n$: 
 $$
-D(R_i,n) \;=\;\frac{R_i^2 + R_i}{n}\;+\;\frac{n}{2}\;-\;R_i\;-\;\frac{1}{2}
+D(R_i,n) =\frac{R_i^2 + R_i}{n}\;+\;\frac{n}{2}\;-\;R_i\;-\;\frac{1}{2}
 $$
 
 Luego
 
 $$
-\rho \;=\;1 \;-\;\frac{1}{n}\sum_{i=1}^n\frac{d_i}{D(R_i,n)}
+\rho =1 \;-\;\frac{1}{n}\sum_{i=1}^n\frac{d_i}{D(R_i,n)}
 $$
 
 ### Ejemplo
@@ -30,15 +30,15 @@ Se debe interpretar como que 1 es una predicci√≥n perfecta y -1 es una predicci√
 Para $n=2$ y $R=(0,1)$:
 
 $$
-D(0,2) \;=\;\frac{0^2+0}{2} + \frac{2}{2} - 0 - \frac12
-\;=\;0 + 1 - 0.5
-\;=\;0.5
+D(0,2) =\frac{0^2+0}{2} + \frac{2}{2} - 0 - \frac12
+=0 + 1 - 0.5
+=0.5
 $$
 
 $$
-D(1,2) \;=\;\frac{1^2+1}{2} + \frac{2}{2} - 1 - \frac12
-\;=\;1 + 1 - 1 - 0.5
-\;=\;0.5
+D(1,2) =\frac{1^2+1}{2} + \frac{2}{2} - 1 - \frac12
+=1 + 1 - 1 - 0.5
+=0.5
 $$
 
 
