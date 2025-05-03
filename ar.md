@@ -19,7 +19,7 @@ $$
 Luego
 
 $$
-\rho =1 \;-\;\frac{1}{n}\sum_{i=1}^n\frac{d_i}{D(R_i,n)}
+\rho =1 -\frac{1}{n}\sum_{i=1}^n\frac{d_i}{D(R_i,n)}
 $$
 
 ### Ejemplo
