@@ -12,8 +12,9 @@ donde:
 
 
 El denominador es la distancia promedio dado $R_i$ y $n$: 
+
 $$
-D(R_i,n) =\frac{R_i^2 + R_i}{n}\;+\;\frac{n}{2}\;-\;R_i\;-\;\frac{1}{2}
+D(R_i,n) = \frac{R_i^2 + R_i}{n}\;+\;\frac{n}{2}\;-\;R_i\;-\;\frac{1}{2}
 $$
 
 Luego
