@@ -118,7 +118,7 @@ $$
 
 $$
 D(R_i,n)
-=\frac{2R_i^2 +2R_i -2nR_i + n^2 - n}{2\,n}.
+=\frac{2R_i^2 +2R_i -2nR_i + n^2 - n}{2n}.
 $$
 
 5. **Separar y simplificar**
@@ -126,8 +126,8 @@ $$
 $$
 \begin{aligned}
 D(R_i,n)
-&=\frac{2R_i^2+2R_i}{2n} \;-\;\frac{2nR_i}{2n}\;+\;\frac{n^2}{2n}\;-\;\frac{n}{2n}\\
-&=\frac{R_i^2+R_i}{n}\;-\;R_i\;+\;\frac{n}{2}\;-\;\frac12.
+&=\frac{2R_i^2+2R_i}{2n} -\frac{2nR_i}{2n}\;+\;\frac{n^2}{2n}\;-\;\frac{n}{2n}\\
+&=\frac{R_i^2+R_i}{n}-R_i+\frac{n}{2}-\frac12.
 \end{aligned}
 $$
 
