@@ -126,7 +126,7 @@ $$
 $$
 \begin{aligned}
 D(R_i,n)
-&=\frac{2R_i^2+2R_i}{2n} -\frac{2nR_i}{2n}\;+\;\frac{n^2}{2n}\;-\;\frac{n}{2n}\\
+&=\frac{2R_i^2+2R_i}{2n} -\frac{2nR_i}{2n}+\frac{n^2}{2n}-\frac{n}{2n}\\
 &=\frac{R_i^2+R_i}{n}-R_i+\frac{n}{2}-\frac12.
 \end{aligned}
 $$
@@ -135,5 +135,5 @@ Por tanto, la forma cerrada final es
 
 $$
 \boxed{D(R_i,n)
-=\frac{R_i^2+R_i}{n} \;-\; R_i \;+\;\frac{n}{2}\;-\;\frac12.}
+=\frac{R_i^2+R_i}{n} - R_i +\frac{n}{2}-\frac12.}
 $$
